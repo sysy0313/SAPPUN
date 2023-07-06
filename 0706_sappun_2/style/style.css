@@ -1,0 +1,88 @@
+/* header */
+header {}
+/* 헤더-위 */
+header .h_top_bg {background-color:#ccc; text-align:center; height:36px;}
+header .h_top_bg a {line-height:36px; font-weight:700; letter-spacing:-0.02em;}
+/* 헤더-아래 */
+header .h_btm {
+    background-color:mediumaquamarine;
+    height:100px; 
+}
+/* 사뿐로고 */
+header .h_btm h1 {background-color:salmon;
+    width:130px; height:19px; margin:0 auto; line-height:100px;
+}
+header .h_btm h1 a {}
+header .h_btm h1 a img {width:100%;}
+/* 오른쪽 */
+header .h_btm .right {text-align:right; margin:0 2%;}
+header .h_btm .right .right_1 {display:inline;}
+header .h_btm .right .right_1 a {}
+header .h_btm .right .right_1 a:last-child {}
+header .h_btm .right .right_1 a span {}
+header .h_btm .right .right_1 a .coupon {}
+header .h_btm .right .right_2 {display:inline;}
+header .h_btm .right .right_2 a {}
+
+
+
+/* nav */
+header nav {background-color:palegreen;
+    width:1300px; height:50px; margin:0 auto; text-align:center;
+}
+header nav ul {}
+header nav ul li {display:inline-block; margin-right:30px; line-height:50px;}
+header nav ul li:last-child {margin-right:0;}
+header nav ul li a {}
+/* 우측메뉴 */
+aside {background-color:palegoldenrod;
+    width:30px; float:right;
+}
+aside a {
+    display:block;
+    width:30px; height:30px; text-align:center;
+}
+aside a img {width:20px;}
+/* 메인 */
+main {}
+/* 메인배너*/
+main .banner_main {width:100%}
+main .banner_main a {}
+main .banner_main a img {width:100%;}
+/* 아래배너*/
+main .banner_btm {
+    background-color:mediumaquamarine;
+    width:1300px; margin:0 auto; text-align:center; padding:80px 0;
+}
+main .banner_btm a {display:inline-block; width:415px; height:350px;}
+main .banner_btm a:nth-child(2) {margin:0 23px;}
+main .banner_btm a img {width:100%; height:100%;}
+/* 베스트아이템 */
+main #best {background-color:lightpink;}
+main #best h2 {}
+main #best .item_list {}
+/* 아이템제목*/
+main #best .item_list .item {}
+main #best .item_list .item .title {background-color:paleturquoise;}
+main #best .item_list .item .title a {}
+main #best .item_list .item .title a p {}
+main #best .item_list .item .title a p img {}
+main #best .item_list .item .title a h3 {}
+main #best .item_list .item .title em {}
+/* 아이템디테일 */
+main #best .item_list .item .detail {}
+main #best .item_list .item .detail .detail_top {}
+main #best .item_list .item .detail .detail_top span {}
+main #best .item_list .item .detail .detail_top em {}
+main #best .item_list .item .detail .detail_btm {}
+main #best .item_list .item .detail .detail_btm span {}
+/*사뿐메이드 */
+main .made_bg {background-image:url(../images/made_img.jpg);}
+main .made_bg #made {}
+main .made_bg #made h2 {}
+main .made_bg #made a {}
+/* footer */
+footer {background-color:navajowhite;}
+footer .fnb {}
+footer .fnb a {}
+footer address {}
