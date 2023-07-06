@@ -1,0 +1,67 @@
+/* header */
+header {background-color:beige;}
+/* h-top */
+header .h_top {background-color:#ccc;}
+header .h_top a {}
+/* h-btm */
+header .h_btm {background-color:mediumaquamarine;}
+header .h_btm h1 {}
+header .h_btm h1 img {}
+header .h_btm .h_right {}
+header .h_btm .h_right .lnb {}
+header .h_btm .h_right .lnb .left {background-color:hotpink;}
+header .h_btm .h_right .lnb .left a {}
+header .h_btm .h_right .lnb .left a img {}
+header .h_btm .h_right .lnb .left a span {}
+header .h_btm .h_right .lnb .left a .coupon {}
+header .h_btm .h_right .lnb .right {background-color:skyblue;}
+header .h_btm .h_right .lnb .right a {}
+header .h_btm .h_right .lnb .right a img {}
+/* nav */
+header nav {background-color:palegreen;}
+header nav ul {}
+header nav ul li {}
+header nav ul li a {}
+/* 우측메뉴 */
+aside {background-color:palegoldenrod;}
+aside a {}
+aside a img {}
+/* 메인 */
+main {}
+/* 메인배너*/
+main .banner_main {background-color:cadetblue;}
+main .banner_main a {}
+main .banner_main a img {}
+/* 아래배너*/
+main .banner_btm {background-color:mediumaquamarine;}
+main .banner_btm a {}
+main .banner_btm a img {}
+/* 베스트아이템 */
+main #best {background-color:lightpink;}
+main #best h2 {}
+main #best .item_list {}
+/* 아이템제목*/
+main #best .item_list .item {}
+main #best .item_list .item .title {background-color:paleturquoise;}
+main #best .item_list .item .title a {}
+main #best .item_list .item .title a p {}
+main #best .item_list .item .title a p img {}
+main #best .item_list .item .title a h3 {}
+main #best .item_list .item .title em {}
+/* 아이템디테일 */
+main #best .item_list .item .detail {}
+main #best .item_list .item .detail .detail_top {}
+main #best .item_list .item .detail .detail_top span {}
+main #best .item_list .item .detail .detail_top em {}
+main #best .item_list .item .detail .detail_btm {}
+main #best .item_list .item .detail .detail_btm span {}
+/*사뿐메이드 */
+main .made_bg {background-image:url(../images/made_img.jpg);}
+main .made_bg #made {}
+main .made_bg #made h2 {}
+main .made_bg #made a {}
+/* footer */
+footer {background-color:navajowhite;}
+footer .fnb {}
+footer .fnb a {}
+footer address {}
